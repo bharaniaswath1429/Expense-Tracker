@@ -1,0 +1,35 @@
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    min-width: 300px;
+    height: 100%;
+  }
+  
+  .sidebar h2 {
+    color: white;
+  }
+  
+  .sidebar .nav-link {
+    color: white;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+    color: white;
+  }
+  .btn1:hover{
+    background-color: #6c63ff !important;
+    border: 2px solid white !important;
+    color: white !important;
+  }
+  .navli:hover{
+    background-color: white !important;
+    color: #6c63ff !important;
+  }
+
+  .navli.active {
+    background-color: white;
+    color: #6c63ff !important;
+    font-weight: bold;
+    border-right: 10px solid #a29eff;
+  }
