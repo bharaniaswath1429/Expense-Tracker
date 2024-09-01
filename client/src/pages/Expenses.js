@@ -87,6 +87,9 @@ const Expenses = () => {
       console.log(response)
       if (response.ok) {
         toast.success("Created successfully!");
+        setTimeout(() => {
+          window.location.reload();
+        }, 3000);
         setFormData(initialFormData);
       } else {
         toast.error("Failed to create expense.");
